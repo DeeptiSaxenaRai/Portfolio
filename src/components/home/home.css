@@ -1,0 +1,12 @@
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.Home {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
