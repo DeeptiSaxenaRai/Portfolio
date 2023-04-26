@@ -1,47 +1,38 @@
-import style from "./navbar.module.css";
-import { Component } from "react";
-// import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./navbar.css";
 
-class Navbar extends Component {
-  state = { clicked: false };
-  handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
-  };
-  // function clickBarMenu() {
-  //   console.log("hi");
-  //   setIsClick((clicked) => !clicked);
-  // }
-  render() {
-    return (
-      <nav className={style.container}>
-        <img src="./src/assets/image/BigLogo.png" />
-        {/* <div className="menu-icon" onClick={clickBarMenu}>
-        <i className={setIsClick.clicked ? "fas fa-times" : "fas fa-bars"}></i>
-      </div> */}
-        <div className={style.hamburger} onClick={this.handleClick}>
-          <i
-            id="bar"
-            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-          ></i>
-        </div>
+function Navbar() {
+  const [Mobile, setMobile] = useState(false);
 
-        <ul className={style.navMenu}>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Skills</a>
-          </li>
-          <li>
-            <a href="#">Project</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      // </div>
-    );
+  function menuOpen() {
+    setMobile((mobileOpen) => !mobileOpen);
   }
+
+  return (
+    <nav className="navbar">
+      <img className="navLogo" src="./src/assets/image/new-logo.png" />
+      <ul
+        className={Mobile ? "nav-links-mobile" : "nav-links"}
+        onClick={menuOpen}
+      >
+        <a className="active" href="#home">
+          <li>Home</li>
+        </a>
+        <a className="active" href="#project">
+          <li>Project</li>
+        </a>
+        <a className="active" href="/">
+          <li>Skills</li>
+        </a>
+        <a className="active" href="/">
+          <li>Contact</li>
+        </a>
+      </ul>
+      <button className="mobile-menu-icon" onClick={menuOpen}>
+        {Mobile ? <FaTimes /> : <FaBars />}
+      </button>
+    </nav>
+  );
 }
 export default Navbar;

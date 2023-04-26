@@ -10,29 +10,29 @@ class Menubar extends Component {
   render() {
     return (
       <nav>
-        <img src="./src/assets/image/new-logo.png" />
+        <img className="navLogo" src="./src/assets/image/new-logo.png" />
         <div>
           <ul
             id="navMenu"
             className={this.state.clicked ? "#navMenu active" : "#navMenu"}
           >
             <li>
-              <a className="active" href="#">
+              <a className="active" href="#home">
                 Home
               </a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#project">Projects</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#">Skills</a>
             </li>
             <li>
               <a href="#">Contact</a>
             </li>
           </ul>
         </div>
-        <div id="mobile" onClick={this.handleClick}>
+        <div id="smallScreen" onClick={this.handleClick}>
           <i
             className={this.state.clicked ? "fas fa-times " : "fas fa-bars"}
           ></i>

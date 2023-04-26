@@ -1,6 +1,6 @@
 import React from "react";
-// import Navbar from "./components/navbar/Navbar";
-import Menubar from "./components/menubar/Menubar";
+import Navbar from "./components/navbar/Navbar";
+// import Menubar from "./components/menubar/Menubar";
 
 import Home from "./components/home/Home";
 import Skills from "./components/skills/Skills";
@@ -11,10 +11,10 @@ import { useState } from "react";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <Menubar />
-      {/* <Home /> */}
-      {/* <Projects /> */}
+      <Navbar />
+      {/* <Menubar /> */}
+      <Home />
+      <Projects />
       {/* <Skills /> */}
       {/* <Contact />  */}
     </div>
