@@ -1,0 +1,31 @@
+.main {
+  width: 85%;
+  height: 100vh;
+  margin: auto;
+  padding: 100px 0;
+}
+.skillContainer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  box-shadow: rgb(247, 173, 173) 0px 5px 15px 5px;
+}
+h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400px;
+}
+.frontendContainer,
+.backendContainer,
+h3 {
+  color: rgb(170, 97, 97);
+  font-size: 1.25rem;
+  padding: 10px;
+}
+.frontendContainer img,
+.backendContainer img {
+  padding: 0 10px 10px 20px;
+  width: 80px;
+  height: 75px;
+}

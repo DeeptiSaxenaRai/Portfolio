@@ -15,7 +15,7 @@ function App() {
       {/* <Menubar /> */}
       <Home />
       <Projects />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Contact />  */}
     </div>
   );

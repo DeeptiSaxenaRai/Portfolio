@@ -1,5 +1,7 @@
-:root {
+#root,
+body {
   font-family: "Lobster", cursive;
+  height: 100%;
 }
 * {
   margin: 0;
@@ -12,4 +14,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+h1 {
+  font-family: "Monoton", cursive;
+  color: rgb(161, 62, 66);
+}
+
+h2 {
+  font-family: "Nova Oval", cursive;
+  color: rgb(170, 97, 97);
 }

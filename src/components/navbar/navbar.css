@@ -1,12 +1,17 @@
 .navbar {
   height: 12vh;
   /* line-height: 10vh; */
-  background: rgba(235, 155, 159, 0.15);
+  background: rgb(246, 222, 223);
   box-shadow: 0 5px 15px rgba(245, 26, 26, 0.15);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+
+  /* For stick the navbar */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .navLogo {
   width: 70px;
@@ -33,7 +38,7 @@ li {
 }
 .active {
   text-decoration: none;
-  color: rgb(170, 97, 97);
+  color: rgb(162, 67, 67);
 }
 
 .nav-links a:hover,
@@ -61,12 +66,13 @@ button {
     list-style: none;
     box-shadow: 0 5px 15px rgba(245, 26, 26, 0.15);
     left: 0;
-    top: 12vh;
-    height: 88vh;
+    top: 11vh;
+    height: 89vh;
     transition: 0.5s ease-in-out;
     width: 100%;
     background-color: rgb(238, 206, 208);
-    color: rgb(161, 62, 66);
+    color: rgb(162, 67, 67);
+    /* overflow: hidden; */
   }
   ul li {
     padding: 32px;
@@ -78,6 +84,7 @@ button {
     position: absolute;
     display: block;
     right: 20px;
+    color: rgb(162, 67, 67);
   }
   .navLogo {
     width: 60px;
