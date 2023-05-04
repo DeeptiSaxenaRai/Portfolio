@@ -21,7 +21,10 @@ function About() {
           <br></br>
           <p>
             If You are interested in my CV {"  "}
-            <a href="https://docs.google.com/document/d/1BfFgmrqbf4f-huuUbunO64VGAlwZskJayPLC4pqlI3U/edit?usp=sharing">
+            <a
+              href="https://docs.google.com/document/d/1BfFgmrqbf4f-huuUbunO64VGAlwZskJayPLC4pqlI3U/edit?usp=sharing"
+              target="_blank"
+            >
               click here
             </a>
           </p>
