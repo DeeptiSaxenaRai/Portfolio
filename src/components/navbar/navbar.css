@@ -44,7 +44,8 @@ li {
 .nav-links a:hover,
 .nav-links a.active:hover {
   color: rgb(96, 10, 10);
-  text-decoration: underline;
+  /* 
+  text-decoration: underline; */
 }
 
 button {

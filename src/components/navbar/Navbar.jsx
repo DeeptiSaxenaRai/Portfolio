@@ -25,7 +25,7 @@ function Navbar() {
         <a className="active" href="#skill">
           <li>Skills</li>
         </a>
-        <a className="active" href="/">
+        <a className="active" href="#about">
           <li>About</li>
         </a>
         <a className="active" href="/">

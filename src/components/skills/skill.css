@@ -1,12 +1,13 @@
 .main {
   width: 85%;
-  height: 100vh;
+  /* height: 100vh; */
   margin: auto;
   padding: 100px 0;
+  /* position: relative; */
 }
 .skillContainer {
   width: 100%;
-  height: auto;
+  height: 100%;
   text-align: center;
   box-shadow: rgb(247, 173, 173) 0px 5px 15px 5px;
 }

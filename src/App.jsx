@@ -4,7 +4,8 @@ import Navbar from "./components/navbar/Navbar";
 
 import Home from "./components/home/Home";
 import Skills from "./components/skills/Skills";
-import Projects from "./components/projects/Projects";
+import Project from "./components/projects/Projects";
+import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import { useState } from "react";
 
@@ -14,8 +15,9 @@ function App() {
       <Navbar />
       {/* <Menubar /> */}
       <Home />
-      <Projects />
+      <Project />
       <Skills />
+      <About />
       {/* <Contact />  */}
     </div>
   );
