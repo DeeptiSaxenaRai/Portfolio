@@ -1,9 +1,10 @@
 import "./about.css";
+import myImg from "../../assets/image/deepti.jpg";
 function About() {
   return (
     <main className="main" id="about">
       <div className="aboutContainer">
-        <img src="./src/assets/image/deepti.jpg" />
+        <img src={myImg} />
         <div className="detail">
           <p>
             I am a front-end developer with a deep passion for designing,

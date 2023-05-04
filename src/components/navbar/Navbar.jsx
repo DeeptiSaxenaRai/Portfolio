@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-// import mainLogo from "/portfolio/src/assets/image/new-logo.png";
 import mainLogo from "../../assets/image/new-logo.png";
 import "./navbar.css";
 
@@ -31,7 +30,7 @@ function Navbar() {
         <a className="active" href="#about">
           <li>About</li>
         </a>
-        <a className="active" href="/">
+        <a className="active" href="#contact">
           <li>Contact</li>
         </a>
       </ul>

@@ -2,16 +2,17 @@
   width: 85%;
   /* height: 100vh; */
   margin: auto;
-  /* padding: 100px 0; */
+  padding: 100px 0;
 }
 
 .aboutContainer {
   width: 100%;
-  height: 90%;
+  height: 100%;
   /* text-align: center; */
   box-shadow: rgb(193, 227, 250) 0px 5px 15px 5px;
   display: flex;
   padding: 30px 50px;
+  margin: 50px auto;
 }
 
 .aboutContainer img {
@@ -37,13 +38,17 @@ p a:hover {
   color: rgb(60, 5, 5);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 640px) {
   .aboutContainer {
     display: block;
+    text-align: center;
+    padding: 10px 0;
   }
   .aboutContainer img {
     /* padding-left: 50px; */
-    align-items: center;
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
   }
   .detail {
     width: 100%;
