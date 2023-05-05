@@ -1,12 +1,14 @@
 .navbar {
+  width: 100%;
   height: 12vh;
   /* line-height: 10vh; */
-  background: rgb(246, 222, 223);
+  /* background: rgb(246, 222, 223); */
+  background: rgb(237, 205, 206);
   box-shadow: 0 5px 15px rgba(245, 26, 26, 0.15);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 30px;
 
   /* For stick the navbar */
   position: -webkit-sticky;
@@ -17,6 +19,11 @@
   width: 70px;
   height: 60px;
   border-radius: 50%;
+}
+
+/* Hover effect on navlogo is deleted */
+.navLogo:hover {
+  box-shadow: none;
 }
 .nav-links {
   display: flex;
@@ -43,7 +50,7 @@ li {
 
 .nav-links a:hover,
 .nav-links a.active:hover {
-  color: rgb(96, 10, 10);
+  color: rgb(96, 6, 6);
   /* 
   text-decoration: underline; */
 }
@@ -60,6 +67,7 @@ button {
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
+    height: auto;
   }
   .nav-links-mobile {
     position: absolute;
@@ -71,12 +79,13 @@ button {
     height: 89vh;
     transition: 0.5s ease-in-out;
     width: 100%;
-    background-color: rgb(238, 206, 208);
+    /* background-color: rgb(238, 206, 208); Before I use that color*/
+    background-color: rgb(246, 215, 218);
     color: rgb(162, 67, 67);
     /* overflow: hidden; */
   }
   ul li {
-    padding: 32px;
+    padding: 25px;
     width: 100%;
     transition: 0.5s ease-in-out;
     text-align: center;
@@ -84,7 +93,7 @@ button {
   .mobile-menu-icon {
     position: absolute;
     display: block;
-    right: 20px;
+    right: 30px;
     color: rgb(162, 67, 67);
   }
   .navLogo {

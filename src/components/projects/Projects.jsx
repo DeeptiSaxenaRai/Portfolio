@@ -8,11 +8,8 @@ import juleoppgave from "../../assets/image/project-img/wish-list.png";
 function Project() {
   return (
     <main className="main" id="project">
-      {/* <div className="mainProjectContainer glow"> */}
       <div className="mainProjectContainer">
-        {/* <div className="heading"> */}
         <h1>PROJECTS</h1>
-        {/* </div> */}
         <div className="ProjectContainer">
           <div className="projects">
             <h4>API</h4>

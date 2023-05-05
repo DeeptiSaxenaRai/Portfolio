@@ -3,37 +3,8 @@
   padding: 100px 0;
   text-align: center;
   width: 85%;
-  height: 100vh;
-  /* white-space: 10px; */
-
-  /* animation properties */
-  /* animation-name: my-animation;
-  animation-duration: 10s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; */
-
-  /* other properties */
-  /* border-radius: 10px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto; */
-}
-
-@keyframes my-animation {
-  from {
-    /* background-color: rgba(238, 122, 128, 0.15); */
-    /* background-color: rgb(140, 43, 43); */
-    /* width: 50%;
-    top: 30px; */
-  }
-  to {
-    /* background-color: rgba(195, 202, 244, 0.15); */
-    /* width: 80%;
-    top: 10px; */
-  }
+  /* height: 100vh; */
+  height: auto;
 }
 
 .mainHeading {
@@ -54,8 +25,4 @@
   .heading {
     font-size: 1.25rem;
   }
-  /* .homeContainer {
-    /* background-color: rgb(248, 241, 242); */
-  /* animation: none; */
-  /* } */
 }
