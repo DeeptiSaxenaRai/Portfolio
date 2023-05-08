@@ -2,7 +2,7 @@ import "./contact.css";
 import mail from "../../assets/image/contact-img/gmail.png";
 import linkedin from "../../assets/image/contact-img/linkedin.png";
 import github from "../../assets/image/skill-img/github.png";
-import copylogo from "../../assets/image/copylogo.png";
+// import copylogo from "../../assets/image/copylogo.png";
 
 function Contact() {
   return (
@@ -30,7 +30,7 @@ function Contact() {
       <div className="footer">
         <p>
           <img src={copylogo} />
-          <span>By deepti Saxena 2023</span>
+          <span>by deepti saxena 2023</span>
         </p>
       </div>
     </div>
