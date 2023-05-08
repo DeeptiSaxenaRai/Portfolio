@@ -10,13 +10,23 @@
   /* text-align: center; */
   box-shadow: rgb(247, 173, 173) 0px 5px 15px 5px;
   border-radius: 10px;
+  align-items: center;
+}
+h1 {
+  padding: 20px 0 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400px;
+}
+
+.contentContainer {
   display: flex;
   padding: 30px 50px;
   /* margin: 50px auto; */
   margin: 0 auto;
 }
 
-.aboutContainer img {
+.contentContainer img {
   width: 220px;
   height: 250px;
   border-radius: 50%;
@@ -41,12 +51,12 @@ p a:hover {
 }
 
 @media screen and (max-width: 640px) {
-  .aboutContainer {
+  .contentContainer {
     display: block;
     text-align: center;
     padding: 10px 0;
   }
-  .aboutContainer img {
+  .contentContainer img {
     /* padding-left: 50px; */
     width: 180px;
     height: 200px;

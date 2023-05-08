@@ -7,6 +7,7 @@ import Skills from "./components/skills/Skills";
 import Project from "./components/projects/Projects";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 import { useState } from "react";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Project />
       <Skills />
       <Contact />
+      <Footer />
     </div>
   );
 }

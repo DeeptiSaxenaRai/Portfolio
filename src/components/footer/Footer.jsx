@@ -2,12 +2,12 @@ import "./footer.css";
 import copylogo from "../../assets/image/copylogo.png";
 function Footer() {
   return (
-    <main className="footer">
+    <div className="footer">
       <p>
         <img src={copylogo} />
         <span>by deepti saxena 2023</span>
       </p>
-    </main>
+    </div>
   );
 }
 export default Footer;
