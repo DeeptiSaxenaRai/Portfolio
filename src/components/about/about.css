@@ -39,9 +39,9 @@ p {
   padding-left: 50px;
   color: rgb(170, 97, 97);
   text-align: justify;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-family: "Oswald", sans-serif;
-  letter-spacing: 0.125rem;
+  /* letter-spacing: 0.125rem; */
 }
 p a {
   color: rgb(170, 97, 97);
@@ -70,7 +70,7 @@ p a:hover {
     padding-left: 0;
     color: rgb(170, 97, 97);
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
 
     /* letter-spacing: 0.125rem; */
   }
