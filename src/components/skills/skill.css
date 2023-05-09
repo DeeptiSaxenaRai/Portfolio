@@ -12,48 +12,33 @@
   box-shadow: rgb(247, 173, 173) 0px 5px 15px 5px;
   border-radius: 10px;
 }
-h1 {
-  padding: 20px 0 10px;
+.skillContainer h1 {
+  padding: 20px 0;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400px;
 }
-.frontendContainer,
-.backendContainer,
-h3 {
-  color: rgb(170, 97, 97);
-  font-size: 1.25rem;
-  padding: 5px;
-}
-.frontendContainer img,
-.backendContainer img {
-  padding: 0 10px 20px;
-  width: 80px;
-  height: 75px;
-  margin: 5px 10px;
+
+.skillContainer img {
+  padding: 10px 20px;
+  width: 90px;
+  height: 80px;
+  margin: 10px 15px;
 }
 
-.frontendContainer img:hover,
-.backendContainer img:hover {
+.skillContainer img:hover {
   box-shadow: none;
 }
 
 @media screen and (max-width: 640px) {
-  .frontendContainer h3,
-  .backendContainer h3 {
-    font-size: 1rem;
-    padding: 5px;
+  .skillContainer img {
+    padding: 0 5px 10px;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
   }
 
-  .frontendContainer img,
-  .backendContainer img {
-    padding: 0 5px 10px;
-    width: 60px;
-    height: 55px;
-    margin: 5px 10px;
-  }
-  .frontendContainer img:hover,
-  .backendContainer img:hover {
+  .skillContainer img:hover {
     box-shadow: none;
   }
 }

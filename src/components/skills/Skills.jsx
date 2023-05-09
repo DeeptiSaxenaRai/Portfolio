@@ -19,22 +19,22 @@ function Skill() {
     <main className="main" id="skill">
       <div className="skillContainer">
         <h1>SKILLS</h1>
-        <div className="frontendContainer">
-          <h3>Frontend Skills</h3>
-          <img src={html} />
-          <img src={css} />
-          <img src={js} />
-          <img src={reactlogo} />
-          <img src={figma} />
-        </div>
-        <div className="backendContainer">
-          <h3>Backend Skills</h3>
-          <img src={sql} />
-          <img src={nodejs} />
-          <img src={github} />
-          <img src={csharp} />
-          <img src={vs} />
-        </div>
+        {/* <div className="frontendContainer"> */}
+        {/* <h3>Frontend Skills</h3> */}
+        <img src={html} />
+        <img src={css} />
+        <img src={js} />
+        <img src={reactlogo} />
+        <img src={figma} />
+        {/* </div> */}
+        {/* <div className="backendContainer"> */}
+        {/* <h3>Backend Skills</h3> */}
+        <img src={sql} />
+        <img src={nodejs} />
+        <img src={csharp} />
+        <img src={vs} />
+        <img src={github} />
+        {/* </div> */}
       </div>
     </main>
   );
