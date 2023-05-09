@@ -12,7 +12,6 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* <img className="navLogo" src="./src/assets/image/new-logo.png" /> */}
       <img className="navLogo" src={mainLogo} />
       <ul
         className={Mobile ? "nav-links-mobile" : "nav-links"}
