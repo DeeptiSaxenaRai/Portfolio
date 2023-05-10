@@ -18,13 +18,13 @@
   font-size: 2rem;
 }
 
-.homeContainer img {
+.fade img {
   margin-top: 40px;
   width: 100px;
   height: 70px;
 }
 
-.homeContainer img:hover {
+.fade img:hover {
   box-shadow: none;
 }
 

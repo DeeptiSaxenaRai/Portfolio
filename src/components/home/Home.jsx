@@ -7,9 +7,11 @@ function Home() {
       <h2 className="heading">Hi I'm</h2>
       <h1 className="mainHeading">DEEPTI SAXENA</h1>
       <h2 className="heading">Frontend Developer</h2>
-      <a href="#about">
-        <img src={arrow} />
-      </a>
+      <div className="fade">
+        <a href="#about">
+          <img src={arrow} />
+        </a>
+      </div>
     </div>
   );
 }
