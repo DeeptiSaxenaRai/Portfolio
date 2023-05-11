@@ -30,7 +30,7 @@ h1 {
   width: 130px;
   height: 160px;
   border-radius: 10px;
-  box-shadow: 0 0 20px 5px rgba(83, 12, 16, 0.5);
+  /* box-shadow: 0 0 20px 5px rgba(83, 12, 16, 0.5); */
 }
 .detail {
   width: 80%;
@@ -58,9 +58,9 @@ p a:hover {
   }
   .contentContainer img {
     /* padding-left: 50px; */
-    width: 180px;
-    height: 200px;
-    border-radius: 50%;
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
   }
   .detail {
     width: 100%;
@@ -69,8 +69,8 @@ p a:hover {
   p {
     padding-left: 0;
     color: rgb(170, 97, 97);
-    text-align: center;
-    font-size: 1.25rem;
+    /* text-align: center; */
+    font-size: 1.125rem;
 
     /* letter-spacing: 0.125rem; */
   }

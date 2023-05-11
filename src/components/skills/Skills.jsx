@@ -8,7 +8,7 @@ import sql from "../../assets/image/skill-img/sql-server.png";
 import nodejs from "../../assets/image/skill-img/node-js.png";
 import csharp from "../../assets/image/skill-img/c-sharp-logo.png";
 import vs from "../../assets/image/skill-img/visual-studio.png";
-import github from "../../assets/image/skill-img/github.png";
+// import github from "../../assets/image/skill-img/github.png";
 
 function Skill() {
   return (
@@ -24,7 +24,7 @@ function Skill() {
         <img src={nodejs} />
         <img src={csharp} />
         <img src={vs} />
-        <img src={github} />
+        {/* <img src={github} /> */}
       </div>
     </main>
   );
