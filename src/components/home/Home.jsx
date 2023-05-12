@@ -1,5 +1,5 @@
 import "./home.css";
-import arrow from "../../assets/image/down-arrow-icon.png";
+import arrow from "../../assets/image/down-arrow.png";
 
 function Home() {
   return (
@@ -7,11 +7,11 @@ function Home() {
       <h2 className="heading">Hi I'm</h2>
       <h1 className="mainHeading">DEEPTI SAXENA</h1>
       <h2 className="heading">Frontend Developer</h2>
-      <div className="fade">
-        <a href="#about">
-          <img src={arrow} />
-        </a>
-      </div>
+      {/* <div className="fade"> */}
+      <a className="fade" href="#about">
+        <img src={arrow} />
+      </a>
+      {/* </div> */}
     </div>
   );
 }

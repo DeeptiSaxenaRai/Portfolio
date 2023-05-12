@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 25px;
 
   /* For stick the navbar */
   position: -webkit-sticky;
@@ -16,9 +16,9 @@
   top: 0;
 }
 .navLogo {
-  width: 60px;
-  height: 55px;
-  border-radius: 45%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 /* Hover effect on navlogo is deleted */
@@ -27,12 +27,15 @@
 }
 .nav-links {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 .nav-links-mobile {
   display: flex;
-  justify-content: space-between;
+
+  /* justify-content: space-between; */
+  /* align-items: center; */
   text-decoration: none;
 }
 
@@ -40,19 +43,14 @@ li {
   list-style: none;
   font-size: 1.5rem;
   padding: 0 10px;
-  /* margin: 0 10px; */
   cursor: pointer;
-}
-.active {
-  text-decoration: none;
   color: rgb(162, 67, 67);
+  text-decoration: none;
 }
 
-.nav-links a:hover,
-.nav-links a.active:hover {
-  color: rgb(96, 6, 6);
-  /* 
-  text-decoration: underline; */
+li:hover {
+  color: rgb(45, 3, 3);
+  /* text-decoration: underline; */
 }
 
 button {
@@ -85,7 +83,7 @@ button {
     color: rgb(162, 67, 67);
     /* overflow: hidden; */
   }
-  ul li {
+  li {
     padding: 25px;
     width: 100%;
     transition: 0.5s ease-in-out;
@@ -98,8 +96,8 @@ button {
     color: rgb(162, 67, 67);
   }
   .navLogo {
-    width: 50px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
   }
 }

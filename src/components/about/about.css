@@ -31,6 +31,7 @@ h1 {
   height: 160px;
   border-radius: 10px;
   /* box-shadow: 0 0 20px 5px rgba(83, 12, 16, 0.5); */
+  box-shadow: none;
 }
 .detail {
   width: 80%;

@@ -19,13 +19,29 @@
 }
 
 .fade img {
-  margin-top: 40px;
-  width: 100px;
-  height: 70px;
+  margin-top: 20px;
+  width: 80px;
+  height: 60px;
+  opacity: 1;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+  z-index: -2;
 }
 
 .fade img:hover {
+  opacity: 1;
   box-shadow: none;
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 30px;
+    opacity: 0.1;
+  }
 }
 
 @media screen and (max-width: 640px) {
