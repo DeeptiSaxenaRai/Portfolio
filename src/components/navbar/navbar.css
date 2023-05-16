@@ -47,9 +47,15 @@ li {
   color: rgb(162, 67, 67);
   text-decoration: none;
 }
+/* a.active {
+  color: rgb(41, 4, 4);
+  text-decoration: underline;
+} */
 
-li:hover {
-  color: rgb(45, 3, 3);
+li:hover,
+.active {
+  color: rgb(41, 4, 4);
+
   /* text-decoration: underline; */
 }
 
@@ -99,5 +105,10 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+  }
+
+  li:hover,
+  .active {
+    color: rgb(41, 4, 4);
   }
 }

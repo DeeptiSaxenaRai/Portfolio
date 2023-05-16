@@ -1,7 +1,9 @@
 .main {
   width: 85%;
   margin: auto;
-  padding: 100px 0;
+  /* Add height for controll the animation */
+  height: 100vh;
+  /* padding: 100px 0; */
 }
 .skillContainer {
   width: 100%;
@@ -13,25 +15,25 @@
   border-radius: 10px;
 }
 .skillContainer h1 {
-  padding: 20px 0;
+  padding: 20px 0 0;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400px;
 }
 
-.skillContainer img {
+/* .skillContainer img {
   padding: 10px 20px;
   width: 90px;
   height: 80px;
   margin: 10px 15px;
-}
+} */
 
-.skillContainer img:hover {
+/* .skillContainer img:hover {
   box-shadow: none;
-}
+} */
 
 @media screen and (max-width: 640px) {
-  .skillContainer img {
+  /* .skillContainer img {
     padding: 0 5px 10px;
     width: 70px;
     height: 60px;
@@ -40,5 +42,30 @@
 
   .skillContainer img:hover {
     box-shadow: none;
-  }
+  } */
+}
+
+.text-shpere {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  /* background-color: black; */
+}
+
+.tagcloud {
+  display: inline-block;
+  top: 0;
+  font-size: 1.5rem;
+  color: rgb(171, 68, 68);
+  font-family: "Oswald", sans-serif;
+  /* font-weight: 400; */
+  letter-spacing: 0.0625em;
+}
+.tagcloud:hover {
+  color: rgb(22, 3, 3);
 }
