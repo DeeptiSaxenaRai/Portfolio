@@ -55,8 +55,8 @@ li {
 li:hover,
 .active {
   color: rgb(41, 4, 4);
-
-  /* text-decoration: underline; */
+  /* 
+  text-decoration: underline; */
 }
 
 button {
