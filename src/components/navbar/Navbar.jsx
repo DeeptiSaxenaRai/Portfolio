@@ -54,7 +54,7 @@ function Navbar() {
             Project
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="skill"
             spy={true}
@@ -65,7 +65,7 @@ function Navbar() {
           >
             Skill
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             to="contact"

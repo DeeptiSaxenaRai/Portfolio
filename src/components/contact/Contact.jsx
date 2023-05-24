@@ -1,7 +1,7 @@
 import "./contact.css";
 import mail from "../../assets/image/contact-img/gmail.png";
 import linkedin from "../../assets/image/contact-img/linkedin.png";
-import github from "../../assets/image/skill-img/github.png";
+import github from "../../assets/image/contact-img/github.png";
 
 function Contact() {
   return (

@@ -1,5 +1,5 @@
 import "./about.css";
-import myImg from "../../assets/image/deepti-pic.jpg";
+import myImg from "../../assets/image/deeptinew.jpg";
 function About() {
   return (
     <main className="main" id="about">
