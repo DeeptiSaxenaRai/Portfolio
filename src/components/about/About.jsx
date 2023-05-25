@@ -1,13 +1,25 @@
 import "./about.css";
+import { easeInOut, motion } from "framer-motion";
 import myImg from "../../assets/image/deeptinew.jpg";
+
 function About() {
   return (
     <main className="main" id="about">
       <div className="aboutContainer">
-        <h1>ABOUT</h1>
+        <h1 className="aboutHeading">ABOUT</h1>
         <div className="contentContainer">
-          <img src={myImg} />
-          <div className="detail">
+          <motion.img
+            src={myImg}
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.5, ease: easeInOut }}
+          />
+          <motion.div
+            className="detail"
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.5, ease: easeInOut }}
+          >
             <p>
               I am a front-end developer with a deep passion for designing,
               animations and coding. I have done Master in Computer Aplication.
@@ -28,7 +40,7 @@ function About() {
                 click here
               </a>
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </main>
