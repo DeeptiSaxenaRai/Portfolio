@@ -11,9 +11,10 @@
   border-radius: 10px;
   align-items: center;
 }
-h1 {
+.aboutHeading {
   padding: 25px 0 10px;
   text-align: center;
+  align-items: center;
   font-size: 1.5rem;
   font-weight: 400px;
 }
@@ -21,15 +22,15 @@ h1 {
 .contentContainer {
   display: flex;
   padding: 30px 50px;
-  /* margin: 50px auto; */
   margin: 0 auto;
 }
 
 .contentContainer img {
+  /* Add this margin extra  */
+  margin-left: 20px;
   width: 140px;
   height: 180px;
   border-radius: 10px;
-  /* box-shadow: 0 0 20px 5px rgba(83, 12, 16, 0.5); */
   box-shadow: none;
 }
 .detail {
@@ -41,7 +42,6 @@ p {
   text-align: justify;
   font-size: 1.25rem;
   font-family: "Oswald", sans-serif;
-  /* letter-spacing: 0.125rem; */
 }
 p a {
   color: rgb(170, 97, 97);
@@ -57,7 +57,8 @@ p a:hover {
     padding: 10px 0;
   }
   .contentContainer img {
-    /* padding-left: 50px; */
+    margin-left: auto;
+    margin-right: auto;
     width: 120px;
     height: 150px;
     border-radius: 10px;
@@ -69,7 +70,6 @@ p a:hover {
   p {
     padding-left: 0;
     color: rgb(170, 97, 97);
-    /* text-align: center; */
     font-size: 1.125rem;
   }
 }
