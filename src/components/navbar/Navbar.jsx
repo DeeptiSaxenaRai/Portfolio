@@ -1,21 +1,39 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import mainLogo from "../../assets/image/deepti-logo.png";
 import { Link } from "react-scroll";
 import "./navbar.css";
 
+// Add New code according to mobile menu scrolling
 function Navbar() {
-  const [Mobile, setMobile] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.classList.add("disable-scroll");
+    } else {
+      document.body.classList.remove("disable-scroll");
+    }
+  }, [mobileOpen]);
 
   function menuOpen() {
-    setMobile((mobileOpen) => !mobileOpen);
+    setMobileOpen((prevState) => !prevState);
   }
+
+  // Til here and change the menuOpen function too
+
+  // THis code working before
+  // function Navbar() {
+  //   const [Mobile, setMobile] = useState(false);
+  // function menuOpen() {
+  //   setMobile((mobileOpen) => !mobileOpen);
+  // }
 
   return (
     <nav className="navbar">
       <img className="navLogo" src={mainLogo} />
       <ul
-        className={Mobile ? "nav-links-mobile" : "nav-links"}
+        className={mobileOpen ? "nav-links-mobile" : "nav-links"}
         onClick={menuOpen}
       >
         <li>
@@ -97,7 +115,7 @@ function Navbar() {
         </a> */}
       </ul>
       <button className="mobile-menu-icon" onClick={menuOpen}>
-        {Mobile ? <FaTimes /> : <FaBars />}
+        {mobileOpen ? <FaTimes /> : <FaBars />}
       </button>
     </nav>
   );

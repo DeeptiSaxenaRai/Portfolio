@@ -25,8 +25,13 @@ function About() {
               animations and coding. I have done Master in Computer Aplication.
             </p>
             <p>
+              I am hard-working, positive, Flexible and goal-oriented person who
+              likes to learn something new and develop personally. I have good
+              proficiency in both Norwegian and Englsih.
+            </p>
+            <p>
               Resides in Bergen, Norway from last 10 years. Whenever not making
-              content or writing code then I love cooking, gardening, and
+              content or writing code then I love baking, gardening, and
               painting.
             </p>
             <br></br>

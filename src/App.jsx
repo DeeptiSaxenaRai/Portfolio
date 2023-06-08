@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
+import Slider from "react-slick";
 
 import Home from "./components/home/Home";
 // import Skills from "./components/skills/Skills";
-import Project from "./components/projects/Projects";
+import Project from "./components/projectDetail/Projects";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";

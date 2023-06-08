@@ -1,7 +1,7 @@
 .main {
   width: 85%;
   margin: auto;
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 .aboutContainer {
@@ -42,12 +42,17 @@ p {
   text-align: justify;
   font-size: 1.25rem;
   font-family: "Oswald", sans-serif;
+  z-index: -1;
 }
 p a {
   color: rgb(170, 97, 97);
 }
 p a:hover {
   color: rgb(60, 5, 5);
+  text-decoration: none;
+  background-color: aliceblue;
+  padding: 0.125rem 0.5rem;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 640px) {

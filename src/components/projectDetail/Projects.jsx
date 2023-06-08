@@ -1,9 +1,13 @@
+import React from "react";
+import Slider from "react-slick";
+import SliderComp from "./SliderComp";
 import "./project.css";
-import pokemon from "../../assets/image/project-img/Pokemon.jpg";
-import parallex from "../../assets/image/project-img/parallex.png";
-import animation from "../../assets/image/project-img/HTML.png";
-import design from "../../assets/image/project-img/design.png";
-import juleoppgave from "../../assets/image/project-img/wish-list.png";
+
+// import pokemon from "../../assets/image/project-img/pokemon.png";
+// import parallex from "../../assets/image/project-img/parallex.png";
+// import animation from "../../assets/image/project-img/animation.png";
+// import design from "../../assets/image/project-img/design.png";
+// import juleoppgave from "../../assets/image/project-img/Jule-assingment.png";
 
 function Project() {
   return (
@@ -11,6 +15,12 @@ function Project() {
       <div className="mainProjectContainer">
         <h1>PROJECTS</h1>
         <div className="ProjectContainer">
+          <slide>
+            <SliderComp />
+          </slide>
+        </div>
+
+        {/* <div className="ProjectContainer">
           <div className="projects">
             <h4>API</h4>
             <a
@@ -53,7 +63,7 @@ function Project() {
               <img src={juleoppgave} alt="Wish list" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );

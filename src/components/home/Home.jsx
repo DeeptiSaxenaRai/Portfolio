@@ -118,12 +118,11 @@ function Home() {
               "React",
               "NodeJS",
               "Git",
-              "GitHub",
               "Figma",
               "SQL",
               "MongoDB",
-              "Visual Studio",
               "C#",
+              "Visual Studio",
               "ASP.Net",
             ]}
           </TagCloudBase>

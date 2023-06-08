@@ -1,56 +1,54 @@
 .main {
   width: 85%;
   /* margin: auto; */
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 .mainProjectContainer {
-  /* height: 100%; */
   width: 100%;
   text-align: center;
   box-shadow: rgb(247, 173, 173) 0px 5px 15px 5px;
   border-radius: 10px;
-  /* box-shadow: rgb(193, 227, 250) 0px 5px 15px 5px; */
-  /* margin: 50px auto; */
   margin: 0 auto;
 }
 
 .mainProjectContainer h1 {
   /* padding: 50px 20px; */
-  padding: 20px 0 30px;
+  padding: 20px 0;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400px;
 }
 
 .ProjectContainer {
-  display: flex;
+  width: 90%;
   align-items: center;
-  padding-bottom: 50px;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
-.projects {
+/* .projects {
   width: 20%;
   align-items: center;
   text-align: center;
   color: rgb(170, 97, 97);
   padding: 5px 15px;
-}
+} */
 
-h4 {
+/* h4 {
   font-size: 1rem;
   padding-bottom: 5px;
-}
+} */
 
-img {
+/* img {
   width: 90%;
   height: 120px;
   text-align: center;
   border-radius: 15%;
-}
+} */
 
-img:hover {
+/* img:hover {
   box-shadow: 0 0 20px 5px rgba(83, 12, 16);
-}
+} */
 
 @media screen and (max-width: 640px) {
   .main {
