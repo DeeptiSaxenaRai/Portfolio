@@ -2,14 +2,16 @@ import "./cardStyle.css";
 import Design from "../../assets/image/project-img/design.png";
 function DesignCard() {
   return (
-    <div className="PCardContainer">
-      <img src={Design} className="PImage" alt="design site" />
-      <div className="Pdisc">
-        <h3 className="Pheading">Bread Basket</h3>
-        <p className="Pdetail">
-          This is online bakery shopping site with express delivery in specific
-          city and added our satisfy customer list. Using HTML and CSS, I added
-          the video which I took from bakery site advertisment.
+    <div className="ProjectCardContainer">
+      <img src={Design} className="cardImage" alt="design site" />
+      <div className="cardDescription">
+        <h3 className="cardHeading">Bread Basket</h3>
+        <p className="cardDetail">
+          This is an online bakery shopping site with express delivery in
+          particular areas of Bergen city. Video content in this site is taken
+          from Bread Basket bakery advertisement.
+          {/* This video was added in the */}
+          {/* website using HTML and CSS codes. */}
         </p>
         <div className="projectLink">
           <a

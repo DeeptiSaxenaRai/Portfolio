@@ -27,7 +27,8 @@
 }
 
 #contactImage:hover {
-  color: 0 5px 15px rgba(245, 26, 26, 0.15);
+  box-shadow: rgb(247, 173, 173) 0px 5px 15px 5px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 640px) {
   #contactImage a {

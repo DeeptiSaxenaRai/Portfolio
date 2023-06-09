@@ -2,14 +2,14 @@ import "./cardStyle.css";
 import Wish from "../../assets/image/project-img/Jule-assingment.png";
 function ChristmasCard() {
   return (
-    <div className="PCardContainer">
-      <img src={Wish} className="PImage" alt="Christmis site" />
-      <div className="Pdisc">
-        <h3 className="Pheading">Christmas Project</h3>
-        <p className="Pdetail">
-          Using JavaScript and CSS, I make this Christmas site. In this site
-          user can make own wish item list which user can store locally in
-          computer and delete it.
+    <div className="ProjectCardContainer">
+      <img src={Wish} className="cardImage" alt="Christmis site" />
+      <div className="cardDescription">
+        <h3 className="cardHeading">Christmas Project</h3>
+        <p className="cardDetail">
+          This website is made using JavaScript and CSS. It is a christmas
+          project where customer can make or modify their own item wish list and
+          store locally in their computer.
         </p>
         <div className="projectLink">
           <a href="https://deeptisaxenarai.github.io/JuleOppgave/" id="website">

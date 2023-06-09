@@ -1,5 +1,8 @@
 import Slider from "react-slick";
 import React, { Component } from "react";
+import "./project.css";
+// import { BiSolidLeftArrow, BiSolidRightArrow } from "react-icons/bi";
+// import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import PokemonCard from "./PokemonCard";
 import DesignCard from "./DesignCard";
@@ -7,15 +10,49 @@ import AnimationCard from "./AnimationCard";
 import ParellexCard from "./ParellexCard";
 import ChristmasCard from "./ChristmasCard";
 
+// Add Arrow code
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "rgb(177, 72, 72)",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "rgb(177, 72, 72)",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
 const settings = {
   className: "center",
   centerMode: true,
   infinite: true,
-  dots: true,
+  dots: false,
   speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
   initialSlide: 0,
+  arrows: true,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
   responsive: [
     {
       breakpoint: 990,
@@ -28,7 +65,7 @@ const settings = {
       },
     },
     {
-      breakpoint: 765,
+      breakpoint: 820,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -37,7 +74,7 @@ const settings = {
       },
     },
     {
-      breakpoint: 550,
+      breakpoint: 590,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -49,6 +86,7 @@ const settings = {
 
 function SliderComp() {
   return (
+    // <div className="sliderDiv">
     <Slider {...settings}>
       <div>
         <PokemonCard />
@@ -66,6 +104,15 @@ function SliderComp() {
         <ChristmasCard />
       </div>
     </Slider>
+    /* <div className="buttonDiv">
+        <button className="back">
+          <IoIosArrowBack />
+        </button>
+        <button className="next">
+          <IoIosArrowForward />
+        </button>
+      </div> */
+    /* </div> */
   );
 }
 

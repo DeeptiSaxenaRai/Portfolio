@@ -49,10 +49,10 @@ p a {
 }
 p a:hover {
   color: rgb(60, 5, 5);
-  text-decoration: none;
-  background-color: aliceblue;
+  text-decoration: underline;
+  /* background-color: aliceblue;
   padding: 0.125rem 0.5rem;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 @media screen and (max-width: 640px) {

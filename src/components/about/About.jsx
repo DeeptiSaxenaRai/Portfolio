@@ -22,12 +22,12 @@ function About() {
           >
             <p>
               I am a front-end developer with a deep passion for designing,
-              animations and coding. I have done Master in Computer Aplication.
+              animations and coding. I have done Master in Computer Application.
             </p>
             <p>
-              I am hard-working, positive, Flexible and goal-oriented person who
+              I am hard-working, positive, flexible and goal-oriented person who
               likes to learn something new and develop personally. I have good
-              proficiency in both Norwegian and Englsih.
+              proficiency in both Norwegian and English.
             </p>
             <p>
               Resides in Bergen, Norway from last 10 years. Whenever not making

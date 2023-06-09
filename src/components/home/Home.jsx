@@ -11,8 +11,8 @@ function Home() {
     show: {
       opacity: 1,
       transition: {
-        delay: 0.5,
-        duration: 3,
+        delay: 0.3,
+        duration: 2,
         ease: "easeInOut",
       },
     },
@@ -25,8 +25,8 @@ function Home() {
     show: {
       opacity: 1,
       transition: {
-        delay: 5,
-        duration: 3,
+        delay: 1,
+        duration: 2,
         ease: "easeInOut",
       },
     },
@@ -38,7 +38,7 @@ function Home() {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.5,
+        staggerChildren: 0.1,
         ease: "easeInOut",
       },
     },

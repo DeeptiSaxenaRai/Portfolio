@@ -13,6 +13,7 @@
   position: sticky; */
   position: fixed;
   top: 0;
+  z-index: 9999;
 }
 .navLogo {
   width: 50px;
@@ -59,7 +60,6 @@ li {
 button {
   border: none;
   background: none;
-  /* font-size: 20px; */
   font-size: 1.5rem;
 }
 .mobile-menu-icon {
@@ -68,8 +68,8 @@ button {
 
 @media screen and (max-width: 640px) {
   .navbar {
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky; */
+    position: fixed;
     top: 0;
   }
   .nav-links {
@@ -86,10 +86,8 @@ button {
     height: 89vh;
     transition: 0.5s ease-in-out;
     width: 100%;
-    /* background-color: rgb(238, 206, 208); Before I use that color*/
     background-color: rgb(246, 215, 218);
     color: rgb(162, 67, 67);
-    /* overflow: hidden; */
   }
   /* Remove scrollbars */
   .disable-scroll {
@@ -111,7 +109,7 @@ button {
     display: block;
     right: 30px;
     color: rgb(162, 67, 67);
-    scroll-behavior: noen;
+    /* scroll-behavior: noen; */
   }
   .navLogo {
     width: 40px;
