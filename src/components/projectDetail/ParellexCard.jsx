@@ -13,13 +13,13 @@ function ParellexCard() {
         </p>
         <div className="projectLink">
           <a
-            href="https://deeptisaxenarai.github.io/Assingment-Parallexwebsite/"
+            href="https://deeptisaxenarai.github.io/Parallax-website/"
             id="website"
           >
             Website
           </a>
           <a
-            href="https://github.com/DeeptiSaxenaRai/Assingment-Parallexwebsite.git"
+            href="https://github.com/DeeptiSaxenaRai/Parallax-website.git"
             id="github"
           >
             Github
