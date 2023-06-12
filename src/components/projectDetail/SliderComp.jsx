@@ -19,7 +19,6 @@ function SampleNextArrow(props) {
       style={{
         ...style,
         display: "block",
-        background: "rgb(177, 72, 72)",
       }}
       onClick={onClick}
     />
@@ -34,7 +33,6 @@ function SamplePrevArrow(props) {
       style={{
         ...style,
         display: "block",
-        background: "rgb(177, 72, 72)",
       }}
       onClick={onClick}
     />
@@ -86,7 +84,6 @@ const settings = {
 
 function SliderComp() {
   return (
-    // <div className="sliderDiv">
     <Slider {...settings}>
       <div>
         <PokemonCard />
@@ -104,15 +101,6 @@ function SliderComp() {
         <ChristmasCard />
       </div>
     </Slider>
-    /* <div className="buttonDiv">
-        <button className="back">
-          <IoIosArrowBack />
-        </button>
-        <button className="next">
-          <IoIosArrowForward />
-        </button>
-      </div> */
-    /* </div> */
   );
 }
 

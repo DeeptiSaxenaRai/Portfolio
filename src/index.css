@@ -66,9 +66,14 @@ h4 {
 }
 
 .slick-next {
-  right: -18px;
+  right: -25px;
 }
 
 .slick-prev {
-  left: -18px;
+  left: -25px;
+}
+/* set color for arrow */
+.slick-next:before,
+.slick-prev:before {
+  color: rgb(171, 68, 68);
 }
