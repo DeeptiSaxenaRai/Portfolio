@@ -32,7 +32,6 @@
 
 .ProjectCardContainer:hover .cardDescription {
   height: 100%;
-  transition: translate(1.3);
 }
 .cardHeading {
   font-family: "Oswald", sans-serif;
@@ -44,13 +43,13 @@
 .cardDetail {
   padding: 0.5rem 0.5rem 0;
   color: rgb(177, 72, 72);
-  width: 98%;
+  width: 95%;
   font-size: 0.8rem;
 }
 
 .projectLink {
   display: flex;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   justify-content: space-around;
   padding: 0.125rem;
@@ -61,15 +60,20 @@
   font-size: 0.8rem;
   font-family: "Oswald", sans-serif;
   color: rgb(177, 72, 72);
+  background-color: whitesmoke;
+  padding: 0.125rem 0.5rem;
+  border-radius: 10px;
   text-decoration: none;
 }
 
 #website:hover,
 #github:hover {
   color: rgb(48, 6, 6);
-  background-color: whitesmoke;
+  text-decoration: underline;
+
+  /* background-color: whitesmoke;
   padding: 0.125rem 0.5rem;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 @media screen and (max-width: 590px) {
@@ -79,7 +83,7 @@
 
   .cardDetail {
     padding: 0.25rem;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     font-size: 1rem;
   }
@@ -96,7 +100,7 @@
 
   .cardDetail {
     padding: 0.25rem;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     font-size: 1rem;
   }

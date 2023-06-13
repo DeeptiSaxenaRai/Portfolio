@@ -7,9 +7,9 @@ function ParellexCard() {
       <div className="cardDescription">
         <h3 className="cardHeading">Parellex</h3>
         <p className="cardDetail">
-          This parellex website with a slide effect creates an illusion when
-          user scroll the elements at different speeds. This website provides
-          information about Indian culture and famous historical places.
+          This parellex website creates an illusion when user scroll the
+          elements at different speeds. This website provides information about
+          Indian culture and famous historical places.
         </p>
         <div className="projectLink">
           <a

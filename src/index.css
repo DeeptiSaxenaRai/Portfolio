@@ -64,16 +64,30 @@ h4 {
     pointer-events: all;
   }
 }
+/* To hide the dots on the page */
+/* .slick-dots {
+  display: none;
+} */
 
 .slick-next {
-  right: -25px;
+  right: -40px;
 }
 
 .slick-prev {
-  left: -25px;
+  left: -40px;
 }
 /* set color for arrow */
 .slick-next:before,
 .slick-prev:before {
   color: rgb(171, 68, 68);
+}
+
+@media (max-width: 640px) {
+  .slick-next {
+    right: -20px;
+  }
+
+  .slick-prev {
+    left: -20px;
+  }
 }
