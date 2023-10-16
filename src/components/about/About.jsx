@@ -32,7 +32,7 @@ function About() {
             <p>
               Resides in Bergen, Norway from last 10 years. Whenever not making
               content or writing code then I love baking, painting and
-              gardening, .
+              gardening.
             </p>
             <br></br>
 
