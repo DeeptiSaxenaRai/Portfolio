@@ -31,8 +31,8 @@ function About() {
             </p>
             <p>
               Resides in Bergen, Norway from last 10 years. Whenever not making
-              content or writing code then I love baking, gardening, and
-              painting.
+              content or writing code then I love baking, painting and
+              gardening, .
             </p>
             <br></br>
 
