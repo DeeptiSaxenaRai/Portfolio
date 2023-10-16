@@ -39,7 +39,7 @@ function About() {
             <p>
               If You are interested in my CV {"  "}
               <a
-                href="https://docs.google.com/document/d/10g059ZVcAuG5-GBVNWR4GPQ0-laivNmLoyzQclFs-Ck/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1lEPhx4qaYu1R1yb-O4DItMA4lWEKmC1a/view?usp=sharing"
                 target="_blank"
               >
                 click here

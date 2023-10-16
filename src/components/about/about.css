@@ -38,6 +38,7 @@
 }
 p {
   padding-left: 50px;
+  /* max-width: 60ch; */
   color: rgb(170, 97, 97);
   text-align: justify;
   font-size: 1.25rem;
