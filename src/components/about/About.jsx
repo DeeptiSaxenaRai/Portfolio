@@ -21,8 +21,8 @@ function About() {
             transition={{ duration: 1.5, ease: easeInOut }}
           >
             <p>
-              I am a front-end developer with a deep passion for designing,
-              animations and coding. I have done Master in Computer Application.
+              I am a developer with a deep passion for designing, animations and
+              coding. I have done Master in Computer Application.
             </p>
             <p>
               I am hard-working, positive, flexible and goal-oriented person who
